@@ -44,8 +44,8 @@ private:
 		switch(direction){
 			case 0: {action = -1; break;}
 			case 1: {action = 1;  break;}
-			case 2: {action = -3; break;}
-			case 3: {action = 3;  break;}
+			case 2: {action = -4; break;}
+			case 3: {action = 4;  break;}
 			default: {action = -1;break;}
 		}
 		swap(&newState[this->zeroPosi], &newState[this->zeroPosi+action]);
